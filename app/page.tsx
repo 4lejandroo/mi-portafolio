@@ -61,7 +61,7 @@ export default function Home() {
         {/* SECCIÓN 1: INICIO */}
         <section id="inicio" className="min-h-screen flex flex-col justify-center max-w-4xl pt-20">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-slate-900 dark:text-white transition-colors duration-300">
-            Hola, soy Alejandro 👋
+            Hola, soy Alejandro.
           </h1>
           <h2 className="text-2xl md:text-3xl text-blue-600 dark:text-cyan-400 font-medium mb-8">
             Ingeniero Informático | Desarrollador Web y Móvil
