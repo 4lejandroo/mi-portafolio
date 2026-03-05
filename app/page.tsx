@@ -10,22 +10,22 @@ export default function Home() {
         <ul className="space-y-8 text-sm font-bold tracking-widest text-slate-400">
           <li>
             <a href="#inicio" className="hover:text-cyan-400 transition-colors flex items-center gap-4">
-              <span className="w-4 h-[2px] bg-slate-600"></span> INICIO
+              <span className="w-4 h-0.5 bg-slate-600"></span> INICIO
             </a>
           </li>
           <li>
             <a href="#habilidades" className="hover:text-cyan-400 transition-colors flex items-center gap-4">
-              <span className="w-4 h-[2px] bg-slate-600"></span> HABILIDADES
+              <span className="w-4 h-0.5 bg-slate-600"></span> HABILIDADES
             </a>
           </li>
           <li>
             <a href="#experiencia" className="hover:text-cyan-400 transition-colors flex items-center gap-4">
-              <span className="w-4 h-[2px] bg-slate-600"></span> EXPERIENCIA
+              <span className="w-4 h-0.5 bg-slate-600"></span> EXPERIENCIA
             </a>
           </li>
           <li>
             <a href="#proyectos" className="hover:text-cyan-400 transition-colors flex items-center gap-4">
-              <span className="w-4 h-[2px] bg-slate-600"></span> PORTAFOLIO
+              <span className="w-4 h-0.5 bg-slate-600"></span> PORTAFOLIO
             </a>
           </li>
         </ul>
@@ -52,7 +52,7 @@ export default function Home() {
         {/* SECCIÓN 2: HABILIDADES */}
         <section id="habilidades" className="min-h-screen flex flex-col justify-center max-w-4xl pt-20">
           <h3 className="text-3xl font-bold mb-10 text-white flex items-center gap-4">
-            <span className="w-8 h-[2px] bg-cyan-400"></span>
+            <span className="w-8 h-0.5 bg-cyan-400"></span>
             Tecnologías y Lenguajes
           </h3>
           
@@ -90,7 +90,7 @@ export default function Home() {
         {/* SECCIÓN 3: EXPERIENCIA */}
         <section id="experiencia" className="min-h-screen flex flex-col justify-center max-w-4xl pt-20">
           <h3 className="text-3xl font-bold mb-10 text-white flex items-center gap-4">
-            <span className="w-8 h-[2px] bg-cyan-400"></span>
+            <span className="w-8 h-0.5 bg-cyan-400"></span>
             Experiencia Profesional
           </h3>
           <div className="bg-slate-800/50 p-8 rounded-xl border-l-4 border-cyan-400">
@@ -109,7 +109,7 @@ export default function Home() {
         {/* SECCIÓN 4: PROYECTOS */}
         <section id="proyectos" className="min-h-screen flex flex-col justify-center max-w-4xl pt-20">
           <h3 className="text-3xl font-bold mb-10 text-white flex items-center gap-4">
-            <span className="w-8 h-[2px] bg-cyan-400"></span>
+            <span className="w-8 h-0.5 bg-cyan-400"></span>
             Proyectos Destacados
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
